@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="29.078">
+<testcase classname="here we are going to see about Sceanario Outline working" name="_2" time="8.304">
+<system-out><![CDATA[Given User is on registration Page..........................................passed
+When user enters "danish0" in first name field..............................passed
+And user enter "aleem0" in last name field..................................passed
+And user clicks on register button..........................................passed
+Then registration is successfully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="here we are going to see about Sceanario Outline working" name="_3" time="4.379">
+<system-out><![CDATA[Given User is on registration Page..........................................passed
+When user enters "danish1" in first name field..............................passed
+And user enter "aleem1" in last name field..................................passed
+And user clicks on register button..........................................passed
+Then registration is successfully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="here we are going to see about Sceanario Outline working" name="_4" time="3.131">
+<system-out><![CDATA[Given User is on registration Page..........................................passed
+When user enters "danish2" in first name field..............................passed
+And user enter "aleem2" in last name field..................................passed
+And user clicks on register button..........................................passed
+Then registration is successfully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="here we are going to see about Sceanario Outline working" name="_5" time="3.127">
+<system-out><![CDATA[Given User is on registration Page..........................................passed
+When user enters "<fName>" in first name field..............................passed
+And user enter "<lname>" in last name field.................................passed
+And user clicks on register button..........................................passed
+Then registration is successfully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="here we are going to see about Sceanario Outline working" name="_6" time="3.131">
+<failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given User is on amount.....................................................pending
+When user enters 10 in first name field.....................................skipped
+And user enter 20 in last name field........................................skipped
+And user clicks on submit...................................................skipped
+Then check amount...........................................................skipped
+]]></failure>
+</testcase>
+<testcase classname="here we are going to see about Sceanario Outline working" name="_7" time="3.025">
+<failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given User is on amount.....................................................pending
+When user enters 10.0 in first name field...................................skipped
+And user enter 21 in last name field........................................skipped
+And user clicks on submit...................................................skipped
+Then check amount...........................................................skipped
+]]></failure>
+</testcase>
+<testcase classname="here we are going to see about Sceanario Outline working" name="_8" time="3.325">
+<failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given User is on amount.....................................................pending
+When user enters 210.5 in first name field..................................skipped
+And user enter 23.32 in last name field.....................................skipped
+And user clicks on submit...................................................skipped
+Then check amount...........................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

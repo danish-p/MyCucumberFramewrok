@@ -1,0 +1,803 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-28T04:53:11.237Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6854000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.initBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "here-we-are-going-to-see-about-sceanario-outline-working;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.screenshotFailedScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1090000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on registration Page",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"danish0\" in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"danish0\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enters_in_first_name_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"aleem0\" in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aleem0\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enter_in_last_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on register button",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "registration is successfully",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.registration_is_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-28T04:53:19.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2906000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.initBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "here-we-are-going-to-see-about-sceanario-outline-working;;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.screenshotFailedScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1460000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on registration Page",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"danish1\" in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"danish1\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enters_in_first_name_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"aleem1\" in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aleem1\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enter_in_last_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on register button",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "registration is successfully",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.registration_is_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-28T04:53:24.042Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2186000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.initBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "here-we-are-going-to-see-about-sceanario-outline-working;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.screenshotFailedScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 930000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on registration Page",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"danish2\" in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"danish2\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enters_in_first_name_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"aleem2\" in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aleem2\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enter_in_last_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on register button",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "registration is successfully",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.registration_is_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-28T04:53:27.180Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2326000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.initBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "",
+        "description": "",
+        "id": "here-we-are-going-to-see-about-sceanario-outline-working;",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.screenshotFailedScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 796000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on registration Page",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters \"\u003cfName\u003e\" in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cfName\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enters_in_first_name_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter \"\u003clname\u003e\" in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clname\u003e\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enter_in_last_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on register button",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "registration is successfully",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.registration_is_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-28T04:53:30.318Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2075000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.initBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "",
+        "description": "",
+        "id": "here-we-are-going-to-see-about-sceanario-outline-working;;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.screenshotFailedScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 959000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat stepdefinations.ScenarioOutlineExample.user_is_on_amount(ScenarioOutlineExample.java:40)\r\n\tat ✽.User is on amount(file:///G:/DanishTesting/CocumberMavenProject/MyCucumberFramewrok/src/test/resources/com/features/ScenarioOutline.feature:28)\r\n",
+              "duration": 12000000,
+              "status": "pending"
+            },
+            "line": 28,
+            "name": "User is on amount",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_is_on_amount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user enters 10 in first name field",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user enter 20 in last name field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "check amount",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.check_amount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-28T04:53:33.463Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2186000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.initBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "",
+        "description": "",
+        "id": "here-we-are-going-to-see-about-sceanario-outline-working;;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.screenshotFailedScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 833000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat stepdefinations.ScenarioOutlineExample.user_is_on_amount(ScenarioOutlineExample.java:40)\r\n\tat ✽.User is on amount(file:///G:/DanishTesting/CocumberMavenProject/MyCucumberFramewrok/src/test/resources/com/features/ScenarioOutline.feature:28)\r\n",
+              "status": "pending"
+            },
+            "line": 28,
+            "name": "User is on amount",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_is_on_amount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user enters 10.0 in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10.0",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enters_in_first_name_field(java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user enter 21 in last name field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "check amount",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.check_amount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-28T04:53:36.498Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2267000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.initBrowser()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "",
+        "description": "",
+        "id": "here-we-are-going-to-see-about-sceanario-outline-working;;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.screenshotFailedScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1047000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat stepdefinations.ScenarioOutlineExample.user_is_on_amount(ScenarioOutlineExample.java:40)\r\n\tat ✽.User is on amount(file:///G:/DanishTesting/CocumberMavenProject/MyCucumberFramewrok/src/test/resources/com/features/ScenarioOutline.feature:28)\r\n",
+              "duration": 1000000,
+              "status": "pending"
+            },
+            "line": 28,
+            "name": "User is on amount",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_is_on_amount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user enters 210.5 in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "210.5",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enters_in_first_name_field(java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user enter 23.32 in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23.32",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinations.ScenarioOutlineExample.user_enter_in_last_name_field(java.lang.Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.user_clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "check amount",
+            "match": {
+              "location": "stepdefinations.ScenarioOutlineExample.check_amount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke1"
+          }
+        ]
+      }
+    ],
+    "name": "here we are going to see about Sceanario Outline working",
+    "description": "",
+    "id": "here-we-are-going-to-see-about-sceanario-outline-working",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/features/ScenarioOutline.feature",
+    "tags": []
+  }
+]
